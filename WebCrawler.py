@@ -1,6 +1,5 @@
 """
-
-Example webcrawler or 'spider' code.   This spider integrates both of the code routines provided including:
+ This spider integrates both of the code routines provided including:
 
 PorterStemmer - this code provided in Unit 4 implements a porter stemmer. We have integrated this code
 into the program and called the stem method.  This routine could have been implemented as a library and
