@@ -1,18 +1,4 @@
-"""
- This spider integrates both of the code routines provided including:
-
-PorterStemmer - this code provided in Unit 4 implements a porter stemmer. We have integrated this code
-into the program and called the stem method.  This routine could have been implemented as a library and
-included into the program but for the sake of simplicity an clarity when debugging, I have simply included
-the source code into my web crawler script.  You can find this code in the resources section for this
-unit.
-
-BeautifulSoup - this code which can be found in the resources section of this unit is a python module
-that allows text to be read from a html page. Essentially it returns the text of the html page with all of the HTML tags
-and other formatting removed making providing a simple string containing the contents of a web page
-that can be parsed and indexed by our indexer code.  This module can be downloaded from unit resources
-section which also has instructions for installing the module on your system.
-"""
+# The program using Portstemer and bs4 libraries. The python syntex match python version 2.7 
 
 import sys, os, re
 import urllib2
